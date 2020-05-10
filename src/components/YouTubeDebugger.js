@@ -33,6 +33,7 @@ class YouTubeDebugger extends React.Component {
                 settings: {
                     ...previousState.settings,
                     video:{
+                        ...previousState.settings.video,
                         resolution: '720p'
                     }
 
